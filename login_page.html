@@ -1,0 +1,94 @@
+<html>
+    <head>
+        <style>
+            body {
+
+                display:flex;
+                justify-content: center;
+                align-items: center;
+                min-height: 100vh;
+                border-radius: 40px;
+                background-image: url('https://images.pexels.com/photos/22823/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')
+               
+            }
+            .Box button {
+                width: 100%;
+                height:40px;
+                background: #5a422a;
+                border:none;
+                outline:none;
+                font-size: 1em;
+                color:white;
+                font-weight:500;
+                border-radius: 40px;
+
+
+
+
+            }
+            .Box .links{
+                margin:-15px 0 15px;
+                font-size:.9em;
+                display:flex;
+                justify-content: space-between;
+
+
+            }
+            .Box .inputs input{
+                border-radius: 40px;
+                background-color: #f5f5f5;
+                height: 30px;
+                
+
+                
+            }
+            .box h1{
+                text-align: center;
+            }
+            .Box {
+                 background-color: beige;
+                 border-radius: 40px;
+                box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    
+                    width: 450px;      
+                height: 500px;      
+    
+                display: flex;
+                flex-direction: column;
+                justify-content: center; 
+                align-items: center;     
+                padding: 30px;           
+}
+
+        </style>
+
+    </head>
+
+    <body>
+        <section class="Box">
+            <h1>Login</h1>
+            <form>
+                <section class="inputs">
+                    <label>Username:</label>
+                    <input type="text" placeholder="Enter username" id="username" required class="inputs"><br><br>
+                    <label>Password:</label>
+                    <input type="password" placeholder="Enter Password" id="password" required class="inputs">
+
+
+                </section>
+                <br><br>
+                <section class="links">
+                    <a href='#'>Create an Account</a>
+                    <a href='#'>Forgot password?</a>
+                </section>
+                <button type="submit">Login</button><br><br>
+            </form>
+            
+            <p>or</p>
+            <br>
+            <button>Sign in with Google</button>
+        </section>
+
+    </body>
+
+</html>
